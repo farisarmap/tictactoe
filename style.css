@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    background-image: url(4.jpg);
+}
+body{
+	background-color: #86e0bb;
+	margin: auto;
+	font-family: 'Roboto',sans-serif;
+}
+main {
+	width: 100%;
+	height:100%;
+	padding-top:50px;
+}
+main .TicTacGame{
+	width: 400px;
+    height: 500px;
+    margin: auto;
+}
+main .TicTacGame table {
+	width:300px;
+	height: 300px;
+	margin:auto;
+    margin-top:60px;
+}
+main .TicTacGame table tbody {
+	width:300px;
+	height: 300px;
+}
+main .TicTacGame table tbody tr {
+	height:33.335%;
+}
+main .TicTacGame table tbody tr td {
+	width: 3.3335%;
+	font-size:50px;
+	font-weight: italic;
+	text-align: center;
+}
+main .TicTacGame table tbody tr td span {
+	display: none;
+}
+.Header{
+	margin: auto;
+    text-align: center;
+    width: 35%;
+	border-radius: 25px;
+}
+.Header:hover {
+	background-color: aqua;
+}
+.Header h1{
+	border-bottom: 1px solid black;
+	padding-top: 25px;
+	color: rgba(8, 8, 15, 0.767);
+}
+#restart{
+	background-color: #EAF2EF;
+	width: 600px;
+	margin: auto;
+	font-family: 'Roboto',sans-serif;
+}
+main .TicTacGame .GameMessage {
+	padding: 12px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+main .PlayAgain {
+	margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 10%;
+    padding: 5px;
+    background-color: steelblue;
+}
